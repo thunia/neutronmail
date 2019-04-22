@@ -433,6 +433,17 @@ img {
   max-width: 100%;
   height: auto;
   -ms-interpolation-mode: bicubic; }
+
+  button {
+    padding: 0;
+    appearance: none;
+    border: 0;
+    border-radius: 3px;
+    background: transparent;
+    line-height: 1;
+    cursor: auto; }
+    [data-whatinput='mouse'] button {
+      outline: 0; } 
   
   button,
   input,
